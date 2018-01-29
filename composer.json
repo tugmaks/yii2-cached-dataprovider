@@ -2,7 +2,7 @@
     "name": "tugmaks/yii2-cached-dataprovider",
     "description": "Cached data provider",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2","cached dataprovider"],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "php": ">7.1",
+        "yiisoft/yii2": "^2.0.11"
     },
     "autoload": {
         "psr-4": {
