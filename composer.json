@@ -1,0 +1,21 @@
+{
+    "name": "tugmaks/yii2-cached-dataprovider",
+    "description": "Cached data provider",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Tyugaev",
+            "email": "tugmaks@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tugmaks\\Dataprovider\\": "src"
+        }
+    }
+}
